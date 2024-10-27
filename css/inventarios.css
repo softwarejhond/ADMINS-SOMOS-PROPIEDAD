@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+input, label{
+    height: 20px;
+    width: 100%;
+}
+input[type="radio"], label, select {
+    cursor: pointer;
+}
+input[type="color"]{
+    width: 4rem;
+    height: 2.5rem;
+}
+legend {
+    pointer-events: none;
+}
+textarea {
+    width: 100%;
+    padding: 2px 5px;
+}
+aside{
+    display: flex;
+}
+/* UTILIDADES */
+.disabled {
+    pointer-events: none;
+}
+.contenedor-toast{
+    display: flex;
+    flex-direction: column;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-bottom: 1px solid #155724;
+}
+.alert {
+    margin-bottom: 0;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    text-align: center;
+}
+.toast {
+    width: 30rem;
+    font-size: 1.5rem;
+    flex-basis: 0;
+}
+
+.toast-body p::first-letter{
+    text-transform: uppercase;
+}
+.spinner-border{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: none;
+}
+.custom-control-input {
+    left: 15px;
+}
+.modal-body {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;   
+    padding: 2rem;
+}
+th{
+    text-align: center;
+    padding-right: 2rem;
+}
+td{
+    padding-right: 2rem;
+    border-bottom: 1px solid gray;
+}
+#form-filas{
+    display: flex;
+    gap: 1rem;
+}
+/* GENERAL */
+.nav {
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+#code_pro{
+    text-transform: uppercase;
+}
+.nav .code_pro, .nav .num_invent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    gap: 1rem;
+}
+.btn{
+    font-size: 1.5rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.nav-tabs{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    border-bottom: none;
+}
+.nav-tabs li{
+    list-style: none;
+}
+.nav-item{
+    overflow: hidden;
+    cursor: pointer;
+ 
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  
+    position: relative;
+    z-index: 1;
+}
+.forms{
+  
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    border-radius: 0 0 1rem 1rem;
+}
+.forms .buttons {
+    order: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.object{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.disabled {
+    opacity: 0.7;
+}
+.content-object{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* flex-wrap: wrap;
+    justify-content: flex-start; */
+    width: 95%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.custom-switch{
+    scale: 1.8;
+    width: 0;
+}
+.custom-switch .custom-control-label::after {
+    left: -1rem;
+    cursor: pointer;
+}
+.custom-switch .custom-control-label::before{
+    left: -1.2rem;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid gray;
+    margin: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+legend {
+    padding: 0 5px;
+    width: fit-content;
+    text-align: center;
+    text-transform: capitalize;
+}
+.object > legend {
+    font-weight: bold;
+}
+fieldset .atributo{
+    margin: 0 1rem;
+    margin-top: 1rem;
+}
+.atributo {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    min-width: 13rem;
+    background-color: rgb(243, 243, 243);
+}
+.atributo aside {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+@media (max-width: 910px){
+    .content-object{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 750px){
+    .content-object{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 650px){
+    .nav{
+        justify-content: center;
+    }
+}
+@media (max-width: 585px){
+    .content-object{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    aside .buttons {
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 26rem;
+    }
+}
+@media (max-width: 426px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons {
+        margin-top: 1rem;
+    }
+    .content-object{
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,6 @@
+[11-Apr-2023 07:01:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 31
+[11-Apr-2023 07:01:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 33
+[11-Apr-2023 07:01:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 31
+[11-Apr-2023 07:01:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 33
+[11-Apr-2023 07:01:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 31
+[11-Apr-2023 07:01:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/hablemos/public_html/INMOBILIARIAADMIN/views/listPropietarios.php on line 33

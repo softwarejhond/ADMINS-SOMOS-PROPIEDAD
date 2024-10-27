@@ -1,0 +1,247 @@
+/* Eliminar márgenes y paddings de todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables CSS para tamaños y colores */
+:root {
+  --menu-width: auto; /* Ancho del menú */
+  --menu-height: 448px; /* Altura del menú */
+  --hover-bg-color: #e8f0fe; /* Color de fondo en hover */
+  --active-bg-color: #d5e0f2; /* Color de fondo activo */
+}
+
+/* Estilos para enlaces */
+.clear-df-abbr {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo para el contenedor de encabezado */
+.header-grid {
+  display: grid; /* Usa grid para la disposición de elementos */
+  justify-items: center; /* Centra los elementos dentro del grid */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina padding */
+}
+
+/* Estilo para el contenedor del menú */
+.menu-container {
+  width: 100px; /* Ancho del contenedor del menú */
+  position: relative; /* Posicionamiento relativo para el menú absoluto */
+  z-index: 1; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Estilo para el menú desplegable */
+.menu {
+  position: absolute; /* Posicionamiento absoluto respecto al contenedor */
+  top: 0; /* Alinea el menú con el borde superior */
+  left: 50%; /* Centra el menú horizontalmente */
+  transform: translateX(-50%); /* Ajuste para centrar el menú */
+  width: var(--menu-width); /* Usa la variable para el ancho */
+  height: var(--menu-height); /* Usa la variable para la altura */
+  background-color: white; /* Color de fondo del menú */
+  overflow-y: auto; /* Permite scroll vertical en el menú */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Borde del menú */
+  border-radius: 8px; /* Esquinas redondeadas */
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), /* Sombra del menú */
+              0 2px 6px 2px rgba(60, 64, 67, 0.15); /* Sombra difusa */
+  z-index: 10; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+
+
+
+/* Oculta el menú cuando está cerrado */
+[data-is-closed="true"] .menu {
+  display: none; /* Oculta el menú */
+}
+
+/* Estilos para el contenedor de iconos */
+.icons-container {
+  display: grid; /* Usa grid para la disposición de iconos */
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+  justify-items: center; /* Centra los iconos dentro de cada celda */
+  gap: 1.5rem; /* Espaciado entre iconos */
+  padding: 20px 16px 20px 20px; /* Padding en el contenedor */
+}
+
+/* Estilo para divisores */
+.divider {
+  height: 1px; /* Altura del divisor */
+  background-color: #e8eaed; /* Color de fondo del divisor */
+}
+
+/* Estilo para enlaces de iconos */
+.link {
+  height: 84px; /* Altura del enlace */
+  width: 84px; /* Ancho del enlace */
+  text-decoration: none; /* Elimina subrayado de texto */
+  color: initial; /* Color inicial del texto */
+  position: relative; /* Posicionamiento relativo para efectos */
+  text-align: center; /* Centra el texto */
+  display: inline-block; /* Hace que sea un bloque en línea */
+  z-index: 10; /* Asegura que el enlace esté por encima */
+}
+
+/* Estilo para el texto dentro de los enlaces */
+.link > span {
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  overflow: hidden; /* Oculta el texto que se desborda */
+  width: 76px; /* Ancho del texto */
+  display: inline-block; /* Hace que el texto sea un bloque en línea */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es demasiado largo */
+}
+
+/* Efecto de hover en enlaces */
+.bg-hover:hover:before {
+  content: ""; /* Contenido vacío para el pseudo-elemento */
+  background-color: var(--hover-bg-color); /* Color de fondo en hover */
+  border-radius: 8px; /* Esquinas redondeadas */
+  position: absolute; /* Posicionamiento absoluto */
+  left: 0; /* Alinea a la izquierda */
+  top: 0; /* Alinea arriba */
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Alto completo */
+  transform: scale(1.1); /* Escala el fondo */
+  display: block; /* Hace que sea visible */
+  z-index: -10; /* Envía el pseudo-elemento detrás del enlace */
+}
+
+/* Efecto de hover en enlaces cerrados */
+[data-is-closed="true"] .circle-hover:hover:before {
+  content: ""; /* Contenido vacío para el pseudo-elemento */
+  background-color: rgba(60, 64, 67, 0.08); /* Color de fondo en hover */
+  border-radius: 50%; /* Redondea el borde */
+  position: absolute; /* Posicionamiento absoluto */
+  left: 0; /* Alinea a la izquierda */
+  top: 0; /* Alinea arriba */
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Alto completo */
+  transform: scale(1.5); /* Escala el fondo */
+  display: block; /* Hace que sea visible */
+  z-index: -10; /* Envía el pseudo-elemento detrás del enlace */
+}
+
+/* Efecto de activo en enlaces */
+.bg-hover:hover:active:before {
+  background-color: var(--active-bg-color); /* Color de fondo activo */
+}
+
+/* Cambia el cursor al pasar sobre elementos interactivos */
+.pointer {
+  cursor: pointer; /* Cambia el cursor a puntero */
+}
+
+/* Estilos para los iconos de Google */
+.google-icons {
+  display: inline-block; /* Hace que sea un bloque en línea */
+  height: 64px; /* Altura de los iconos */
+  vertical-align: top; /* Alinea verticalmente */
+  width: 64px; /* Ancho de los iconos */
+  background-image: url("https://ssl.gstatic.com/gb/images/p1_799229b0.png"); /* Imagen de fondo */
+  background-size: 64px 2962px; /* Tamaño de la imagen de fondo */
+}
+
+/* Estilos para los iconos individuales de Google */
+.avatar-icon { background-position: 0 -2691px; }
+.search-icon { background-position: 0 -690px; }
+.gmail-icon { background-position: 0 -1449px; }
+.drive-icon { background-position: 0 -1380px; }
+.docs-icon { background-position: 0 -2622px; }
+.sheets-icon { background-position: 0 -276px; }
+.presentation-icon { background-position: 0 -1242px; }
+.calendar-icon { background-position: 0 -2829px; }
+.chat.icon { background-position: 0 -345px; }
+.meet-icon { background-position: 0 -2001px; }
+.sites-icon { background-position: 0 -621px; }
+.contacts-icon { background-position: 0 -1518px; }
+.discuss-icon { background-position: 0 -1104px; }
+.youtube-icon { background-position: 0 -1863px; }
+.play-icon { background-position: 0 -1035px; }
+.maps-icon { background-position: 0 -138px; }
+.news-icon { background-position: 0 -414px; }
+.photos-icon { background-position: 0 -2760px; }
+.translator-icon { background-position: 0 -828px; }
+.duo-icon { background-position: 0 -2346px; }
+.chrome-icon { background-position: 0 -1725px; }
+.books-icon { background-position: 0 -2415px; }
+.art-culture-icon { background-position: 0 -1173px; }
+.ads-icon { background-position: 0 -552px; }
+.blogger-icon { background-position: 0 -966px; }
+.shopping-icon { background-position: 0 -2208px; }
+.hangout-icon { background-position: 0 -1794px; }
+.keep-icon { background-position: 0 -897px; }
+.jamboard-icon { background-position: 0 -1932px; }
+.earth-icon { background-position: 0 -2277px; }
+.collections-icon { background-position: 0 -759px; }
+.podcasts-icon { background-position: 0 -1311px; }
+
+/* ----------------- BOTÓN MÁS -------------- */
+
+/* Estilo para el contenedor del botón más */
+.more-btn-container {
+  text-align: center; /* Centra el botón */
+  position: relative; /* Posicionamiento relativo para el botón */
+}
+
+/* Estilo para el botón más */
+.more-btn {
+  width: 55%; /* Ancho del botón */
+  background-color: white; /* Color de fondo del botón */
+  border: 1px solid #dadce0; /* Borde del botón */
+  border-radius: 4px; /* Esquinas redondeadas */
+  color: #1a73e8; /* Color del texto del botón */
+  font: 500 14px/16px "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; /* Fuente del texto del botón */
+  margin: 16px 0 20px 0; /* Margen alrededor del botón */
+  padding: 10px 24px; /* Padding interno del botón */
+}
+
+/* Efecto de hover en el botón más */
+.more-btn:hover {
+  background-color: var(--hover-bg-color); /* Color de fondo en hover */
+  border-color: var(--active-bg-color); /* Color del borde en hover */
+}
+
+/* Efecto de activo en el botón más */
+.more-btn:active {
+  outline: 0; /* Elimina el contorno por defecto */
+  background-color: var(--active-bg-color); /* Color de fondo activo */
+}
+
+/* Efecto de foco en el botón más */
+.more-btn:focus {
+  outline: 0; /* Elimina el contorno por defecto */
+}
+
+/* Efecto de foco activo en el botón más */
+.more-btn:focus:active {
+  background-color: #ecf3fe; /* Color de fondo en foco activo */
+  border-color: transparent; /* Elimina el color del borde en foco activo */
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), /* Sombra del botón en foco activo */
+              0 2px 6px 2px rgba(60, 64, 67, 0.15); /* Sombra difusa */
+}
+
+/* ----------------- ESTILO DEL SCROLLBAR -------------- */
+
+/* Estilo del scrollbar */
+::-webkit-scrollbar {
+  width: 16px; /* Ancho del scrollbar */
+}
+
+/* Estilo del pulgar del scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #dadce0; /* Color del pulgar */
+  background-clip: padding-box; /* Clip del fondo del pulgar */
+  border: 4px solid transparent; /* Borde transparente del pulgar */
+  border-radius: 8px; /* Esquinas redondeadas del pulgar */
+  box-shadow: none; /* Sin sombra en el pulgar */
+  min-height: 50px; /* Altura mínima del pulgar */
+}
+
+/* Estilo de la pista del scrollbar */
+::-webkit-scrollbar-track {
+  background: none; /* Sin color de fondo en la pista */
+  border: none; /* Sin borde en la pista */
+}

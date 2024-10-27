@@ -1,0 +1,205 @@
+[25-Mar-2023 13:29:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 03:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:02:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:02:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:07:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:09:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:12:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:30:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 03:30:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:35:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:48:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:50:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 03:51:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:00:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 04:08:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 04:10:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 04:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:17:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:22:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:33:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:49:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:16
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(23): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 16
+[29-Mar-2023 04:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:55:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 04:56:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:03:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(16): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php(16): getMunicipio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/cargar_municipio.php on line 10
+[29-Mar-2023 05:22:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:22:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:26:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:26:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10
+[29-Mar-2023 05:30:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php:10
+Stack trace:
+#0 /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php(17): getBarrio()
+#1 {main}
+  thrown in /home/hablemos/public_html/INMOBILIARIAADMIN/php/barrios.php on line 10

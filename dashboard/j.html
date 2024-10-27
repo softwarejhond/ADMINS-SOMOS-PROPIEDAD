@@ -1,0 +1,110 @@
+  while ($row = $result->fetch_assoc()) {
+                $valorFormateadoCard = number_format($row['valor_canon'], 0, '.', '.');
+
+                // Estructura HTML de la tarjeta con el botón del modal
+                echo '<div class="col col-lg-4 col-md-6 ' . $row['tipoInmueble'] . ' mt-n1 grid-item ' . $row['condicion'] . '" >
+                                    <div class="card">
+                                        <img src="../INMOBILIARIAADMIN/' . $row['foto1'] . '" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!-- Botón para abrir el modal -->
+                                            <button class="btn boton" type="button"">
+                                                <span class="spinner-grow spinner-grow-sm colorActivo" role="status" aria-hidden="true"></span>
+                                                ' . $row['condicion'] . '
+                                            </button>
+                                              <button class="btn boton" type="button" data-toggle="modal" data-target="#modalInfo' . $row['codigo'] . '" tittle="Ver caracteristicas">
+                                               <i class="fa-solid fa-circle-info" ></i>
+                                            </button>
+                                            <div class="prop-info text-left">
+                                                <h3 class="prop-title">
+                                                    ' . $row['tipoInmueble'] . ' - ' . $row['codigo'] . '
+                                                </h3>
+                                                <h2 class="prop-title">' . $row['municipio'] . '</h2> <h2 class="prop-title " style="display:none">' . $row['id_municipio'] . '</h2>
+                                                <h3 class="prop-address">' . $row['otra_caracteristicas'] . '</h3>
+                                                <p class="prop-title">Nivel: ' . $row['nivel_piso'] . '</p>
+                                                <p class="prop-price">$' . $valorFormateadoCard . '</p>
+                                                <br>
+                                                <a class="btn btn-outline-success btn-md w-100" boton href="viewInformation.php?nik=' . $row['codigo'] . '"><i class="fa-solid fa-eye"></i> Ver más</a>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted"><i class="fa-solid fa-calendar-days"></i> Fecha de creación' . $row['fecha_creacion'] . '</small></p>
+                                        </div>
+                                    </div>
+                                </div>';
+
+                // Código del modal asociado a esta tarjeta
+                echo '<div class="modal fade" id="modalInfo' . $row['codigo'] . '" tabindex="-1" role="dialog" aria-labelledby="modalInfoTitle' . $row['codigo'] . '" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="modalInfoTitle' . $row['codigo'] . '">Información detallada de la propiedad <b style="color:red">' . $row['codigo'] . '</b></h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- Contenido del modal con información detallada -->
+                                              <div class="row">
+     <div class="col col-lg-4 col-md-4 col-sm-12">
+         <p class="prop-text">
+             <img src="../images/icons/bed.png" width="30px" />
+         </p>
+         <p class="prop-text">Alcobas</p>
+         <p class="prop-numb">' . $row['alcobas'] . '</p>
+
+         <p class="prop-text">
+             <img src="../images/icons/signage.png" width="30px" />
+         </p>
+         <p class="prop-text">Parqueadero</p>
+         <p class="prop-numb">' . $row['parqueadero'] . '</p>
+
+         <p class="prop-text">
+             <img src="../images/icons/patio.png" width="30px" />
+         </p>
+         <p class="prop-text">Patio</p>
+         <p class="prop-numb">' . $row['patio'] . '</p>
+     </div>
+     <div class="col col-md-4">
+         <p class="prop-text">
+             <img src="../images/icons/toilet.png" width="30px" />
+         </p>
+         <p class="prop-text">Baños</p>
+         <h4 class="prop-numb">' . $row['servicios'] . '</h4>
+         <p class="prop-text">
+             <img src="../images/icons/area.png" width="30px" />
+         </p>
+         <p class="prop-text">Área</p>
+         <h4 class="prop-numb">' . $row['area'] . ' m²</h4>
+         <p class="prop-text">
+             <img src="../images/icons/elevator.png" width="30px" />
+         </p>
+         <p class="prop-text">Ascensor</p>
+         <h4 class="prop-numb">' . $row['ascensor'] . '</h4>
+     </div>
+     <div class="col col-md-4">
+         <p class="prop-text">
+             <img src="../images/icons/kitchen.png" width="30px" />
+         </p>
+         <p class="prop-text">Cocina</p>
+         <p class="prop-numb">' . $row['cocina'] . '</p>
+         <p class="prop-text">
+             <img src="../images/icons/level.png" width="30px" />
+         </p>
+         <p class="prop-text">Nivel</p>
+         <p class="prop-numb">' . $row['nivel_piso'] . '</p>
+         <p class="prop-text">
+             <img src="../images/icons/closet.png" width="30px" />
+         </p>
+         <p class="prop-text">Closets</p>
+         <p class="prop-numb">' . $row['closet'] . '</p>
+     </div>
+                         
+                                </div>
+     <a class="btn btn-outline-success btn-md w-100" boton href="viewInformation.php?nik=' . $row['codigo'] . '"><i class="fa-solid fa-eye"></i> Ver más</a>
+                                           
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>';
+            }
